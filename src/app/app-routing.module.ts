@@ -13,13 +13,13 @@ import {UserTypeResolverService} from '../services/user-type-resolver.service';
 
 const routes: Routes = [
 {
-  path: 'dashboard',
-  component: DashboardComponent,
-  children: dashboardRoutes,
-  canActivate: [AuthGuard],
-  resolve: {
-    userType: UserTypeResolverService,
-  }
+    path: 'dashboard',
+    component: DashboardComponent,
+    children: dashboardRoutes,
+    canActivate: [AuthGuard],
+    resolve: {
+      userType: UserTypeResolverService,
+    }
 },
 {
   path: 'login',
