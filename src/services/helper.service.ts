@@ -14,6 +14,8 @@ export class HelperService {
     private router: Router
   ) { }
 
+  
+
   /**
   * Performs a request with `get` http method.
   * @param url the url
