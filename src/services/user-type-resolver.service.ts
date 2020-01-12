@@ -10,5 +10,6 @@ export class UserTypeResolverService implements Resolve<String> {
   constructor(private authService: AuthService) { }
   resolve(): string {
     return this.authService.getUser()['role'];
+    
   }
 }
