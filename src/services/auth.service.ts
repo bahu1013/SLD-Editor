@@ -26,8 +26,6 @@ export class AuthService implements CanActivate {
     return true;
   }
 
-  
-
   /**
    * gets user object stored in sessionStorage
    * @return user object
