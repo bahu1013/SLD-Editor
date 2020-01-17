@@ -13,9 +13,6 @@ export class HelperService {
     private http: HttpClient,
     private router: Router
   ) { }
-
-  
-
   /**
   * Performs a request with `get` http method.
   * @param url the url
